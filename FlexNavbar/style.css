@@ -1,0 +1,36 @@
+ul {
+    list-style: none;
+}
+
+.nav {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: right;
+}
+
+h1 {
+    color: white;
+    margin-left: 15px;
+    background-color: aqua;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.active {
+    font-weight: bolder;
+}
+
+.btn {
+    background-color: blue;
+    color: white;
+    margin-right: 15px;
+}
