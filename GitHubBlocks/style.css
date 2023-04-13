@@ -1,0 +1,39 @@
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* #container {
+    
+} */
+
+
+.box1 {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.box2 {
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.box3 {
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+}
+
+.picture img{
+    height: 200px
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+}
