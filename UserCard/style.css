@@ -3,13 +3,57 @@
     padding: 0;
 }
 
+/* The overall container holding everything */
 .container {
-    background-color: aqua;
+    background-color: maroon;
     width: 60%;
-    display: flex;
+    padding: 2px;
+}
 
+/* this is the maroon top portion */
+.top {
+    background-color: maroon;
+    height: 10%;
+}
+
+/* This will adjust the white portion of the usercard */
+.box {
+    background-color: white;
+    padding: 10px;
+}
+
+.name {
+    margin-top: 50px;
+    font-size: 25px;
 }
 
 .location {
     display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.edit {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+
+/* image edits */
+.gear {
+    height: 20px;
+    margin-right: 10px;
+}
+.map {
+    height: 20px;
+    margin-right: 10px;
+}
+.user {
+    height: 70px;
+    position: relative;
+    bottom: -55;
+    margin-left: 10px;
 }
