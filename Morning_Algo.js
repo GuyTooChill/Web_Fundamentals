@@ -1,44 +1,18 @@
-//
 
-let countPositives = 0;
-let numbers = [3, 4, -2, 7, 16, -8, 0];
-// var arr1 = [3, 4, -2, 7, 16, -8, 0]
 
-// function morningStart(){
-  for(var i=0; i<numbers.length; i++){
-    if(numbers[i] > 0){
-      countPositives++;
-    }
+
+function isPal(arr) {
+  for(var left=0; left<arr.length/2; left++) {
+      var right = arr.length-1-left;
+      if(arr[left] != arr[right]) {
+          return "Not a pal-indrome!";
+      }
   }
-//   return countPositives
-// }
-
-// function morningStart(arr){
-//   for(var i=0; i<arr.length; i++){
-//     if(arr[i] > 0){
-//       newArr.push(arr[i])
-//     }
-//   }
-//   return newArr
-// }
-
-
-// How do we check if it's positive? 
-// We can check if the values are greater than 0. 
-
-// We'll need a loop to go through the array.
-// We'll need a conditional to check the value for if it's positive.
-
-// morningStart(arr1);
-
-console.log("there are " + countPositives + " positive values");
-
-
-/*
-
-Bonus Challenge: 
-Level 1: Write this as a function that accepts arrays as parameters.
-Level 2: Include a return statement that gives back the counted positive numbers.
-Level 3: Instead of returning the count, return a new array of only the positive numbers.
-
-*/
+  return "Pal-indrome!";
+}
+  
+var result1 = isPal( [1, 1, 2, 2, 1] );
+console.log(result1);
+  
+var result2 = isPal( [3, 2, 1, 1, 2, 3] );
+console.log(result2);
