@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: aqua;
+    width: 60%;
+    display: flex;
+
+}
+
+.location {
+    display: flex;
+}
