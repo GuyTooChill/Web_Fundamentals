@@ -1,18 +1,23 @@
+/*  this gets rid of the dots next to list */
 ul {
     list-style: none;
 }
 
+/* overall div block with 2 elements*/
 .nav {
     display: flex;
     background-color: black;
     align-items: center;
-    justify-content: right;
+    justify-content: space-between;
 }
 
+/* profile block */
 h1 {
+    /* display: flex; */
     color: white;
     margin-left: 15px;
     /* background-color: aqua; */
+    /* justify-content: left; */
 }
 
 .nav-links {
