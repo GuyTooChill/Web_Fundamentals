@@ -6,7 +6,7 @@
 /* The overall container holding everything */
 .container {
     background-color: maroon;
-    width: 60%;
+    width: 600px;
     padding: 2px;
     margin: auto;
 }
