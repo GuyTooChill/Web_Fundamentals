@@ -2,3 +2,176 @@
     margin: 0px;
     padding: 0px;
     }
+
+ul {
+    list-style: none;
+    padding: 10px;
+    }
+
+li {
+    margin-bottom: 5px;
+    }
+
+ul img {
+    height: 25px;
+    }
+
+
+/* navbar edits************************************ */
+.navbar {
+    background-color: black;
+    height: 100px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-title {
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.active {
+    font-weight: bolder;
+}
+
+.btn {
+    background-color: blue;
+    color: white;
+    margin-right: 15px;
+}
+
+/* overall main container edits ***********************/
+.main {
+    /* background-color: aqua; */
+    margin: auto;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    width: 50%;
+}
+.right {
+    width: 30%;
+}
+/* usercard edits ***************************************/
+.usercard {
+    margin-bottom: 50px;
+    border: 1px solid maroon;
+}
+
+.container {
+    margin: auto;
+}
+
+/* this is the top portion */
+.top {
+    background-color: maroon;
+    height: 15%;
+}
+
+/* This will adjust the bottom portion of the usercard */
+.box {
+    background-color: white;
+    padding: 10px;
+}
+
+.name {
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.edit {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    background-color: maroon;
+}
+
+/* image edits */
+.gear {
+    height: 20px;
+    margin-right: 10px;
+}
+.map {
+    height: 20px;
+    margin-right: 10px;
+}
+.user {
+    height: 65px;
+    position: relative;
+    bottom: -40;
+    margin-left: 10px;
+}
+
+/* education edits *****************************************/
+
+.education {
+    margin: auto;
+    background-color: white;
+    border: 1px solid maroon;
+}
+
+.top-ed {
+    background-color: maroon;
+    color: white;
+    padding: 15px;
+}
+
+.ed1 {
+    padding: 10px;
+}
+
+.ed2 {
+    padding: 10px;
+}
+
+/* connection requests edits *******************************/
+
+
+.requests {
+    background-color: white;
+    margin-bottom: 50px;
+    border: 1px solid maroon;
+}
+
+
+.top1 {
+    background-color: maroon;
+    padding: 15px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+/* you connection edits ***********************************/
+
+.connections {
+    background-color: white;
+    border: 1px solid maroon;
+}
+
+.view {
+    border-top: 1px solid maroon;
+    padding: 5px;
+    background-color: maroon;
+}
+
