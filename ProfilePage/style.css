@@ -163,6 +163,15 @@ a {
     margin-bottom: 10px;
 }
 
+.requestnames btn {
+    display: flex;
+}
+
+.r1 {
+    display: flex;
+}
+
+
 /* you connection edits ***********************************/
 
 .connections {
