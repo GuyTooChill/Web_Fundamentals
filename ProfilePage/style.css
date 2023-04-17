@@ -24,7 +24,7 @@ ul img {
     margin-bottom: 30px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .nav-title {
@@ -141,9 +141,10 @@ a {
     padding: 10px;
 }
 
-.ed2 {
-    padding: 10px;
+.l2 {
+    color: gray;
 }
+
 
 /* connection requests edits *******************************/
 
