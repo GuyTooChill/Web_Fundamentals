@@ -171,6 +171,9 @@ a {
     display: flex;
 }
 
+.r1 li {
+    margin-right: 100px;
+}
 
 /* you connection edits ***********************************/
 
