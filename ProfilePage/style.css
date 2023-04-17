@@ -161,6 +161,17 @@ a {
     padding: 15px;
     color: white;
     margin-bottom: 10px;
+    display: flex;
+}
+
+h4 {
+    margin-left: 15px;
+}
+
+.top1 p {
+    background-color: black;
+    border-radius:  50%;
+    padding: 2px;
 }
 
 .requestnames btn {
