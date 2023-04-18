@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*  top navbar section *************************/
+.navbar {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 75%;
+    margin: auto;
+    padding: 15px;
+}
+
+.navbar button {
+    background-color: blue;
+    color: white;
+}
+
+
+/* main container and left/right sections ********************** */
+
+
+.main {
+    /* background-color: aqua; */
+    height: 75%;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.left {
+    /* background-color: gray; */
+    width: 60%;
+    margin-top: 15px;
+}
+
+.right {
+    /* background-color: gray; */
+    width: 30%;
+    margin-top: 15px;
+}
+
+
+/* left section ************************/
+
+.word {
+    margin-bottom: 15px;
+    border-style: solid;
+    display: flex;
+    padding: 15px;
+}
+
+.side p {
+    font-style: italic;
+}
+
+.side p1 {
+    font-size: small;
+    
+}
+
+.side button {
+    background-color: yellow;
+    padding: 2px;
+}
+
+.ninja p {
+    margin-bottom: 5px;
+}
+.s1 {
+    font-style: italic;
+}
+
+.btn1 {
+    margin-top: 30px;
+}
+
+.btn2 {
+    margin-top: 30px;
+}
+
+
+.text {
+    padding: 15px;
+    align-self: center;
+}
+
+/* right section **************** */
+
+.dojo {
+    height: 100px;
+    border-style: solid;
+    padding: 15px;
+}
+
+.dojo p {
+    font-size: x-large;
+}
+
+.dojo button {
+    background-color: green;
+    width: 100%;
+    margin-top: 15px;
+    padding: 2px;
+}
+
+.d1 {
+    font-weight: bold;
+}
+
